@@ -5,7 +5,7 @@ Creates a beam of length n-1 where n is a whole number.
     return ((n > 1) ? "S" : ((n % 2) == 0) ? "L" : "R");
    }  
  
- (n) => { 
+(n) => { 
     return ((n < 0) ? "S" : ((n % 2) == 0) ? "L" : "R");
    }
 
